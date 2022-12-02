@@ -3,7 +3,6 @@ body {
   margin: 0;
   padding: 0;
   color: #000;
-  text-decoration: none;
 }
 :root {
   --accent-color: #2196f3;
@@ -102,7 +101,7 @@ height: 16px;
 .main {
   color: --light-background;
 }
-/* !!! ------------------ MAIN-HEAD ------------------ !!!*/
+/* !!! ------------------ MAIN-HEAD(STUDIO) ------------------ !!!*/
 .main-head {
   width: 1600px;
   height: 600px;
@@ -143,7 +142,7 @@ height: 16px;
 .head-btn:hover {
   background-color: var(--secondary-accent-color);
 }
-/* !!! ------------------ MAIN-FEATURES ------------------ !!!*/
+/* !!! ------------------ MAIN-FEATURES(STUDIO) ------------------ !!!*/
 .features {
   width: 1170px;
   height: 98px;
@@ -173,7 +172,7 @@ height: 16px;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
-/* !!! ------------------ MAIN-OCCUPATION ------------------ !!!*/
+/* !!! ------------------ MAIN-OCCUPATION(STUDIO) ------------------ !!!*/
 .occupation {
   width: 1170px;
   height: 386px;
@@ -200,7 +199,7 @@ height: 16px;
   width: 370px;
   height: 294px;
 }
-/* !!! ------------------ MAIN-OUR-TEAM ------------------ !!!*/
+/* !!! ------------------ MAIN-OUR-TEAM(STUDIO) ------------------ !!!*/
 .section-our-team {
   width: 1600px;
   height: 648px;
@@ -246,7 +245,7 @@ height: 16px;
   text-align: center;
   letter-spacing: 0.03em;
 }
-/* !!! ------------------ MAIN-FILTER ------------------ !!!*/
+/* !!! ------------------ MAIN-FILTER(PORTFOLIO) ------------------ !!!*/
 .ul-project-filter {
   list-style: none;
 }
