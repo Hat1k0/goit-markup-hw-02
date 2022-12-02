@@ -50,6 +50,8 @@ body {
 }
 /* !!! ------------------ NAV ------------------ !!! */
 .nav {
+  width: 281px;
+height: 16px;
 }
 .nav-link {
   text-decoration: none;
@@ -151,8 +153,6 @@ body {
 .features-ul {
   list-style: none;
   display: flex;
-}
-.features-list-item {
 }
 .features-list-item-title {
   font-family: "Roboto";
