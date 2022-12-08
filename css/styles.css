@@ -20,7 +20,7 @@ body {
   --hero-font-weight: 900;
   --title-text-color: #212121;
   --secondary-text-color: #757575;
-  
+
   --regular-font-weight: 400;
 }
 /* !!! ------------------------------------- !!!*/
@@ -67,9 +67,8 @@ body {
   line-height: 1.1;
   letter-spacing: 0.02em;
 }
-.activity{
+.activity {
   color: var(--accent-color);
-
 }
 /* !!! ------------------ CONTACTS ------------------ !!! */
 .head-contacts {
@@ -116,7 +115,7 @@ body {
   border-radius: 4px;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-
+  font-family: var(--text-font);
   font-weight: var(--bold-font-weight);
   font-size: 16px;
   line-height: 1.9;
@@ -143,9 +142,8 @@ body {
   color: var(--title-text-color);
 }
 .features-list-item-discription {
-
   margin: 0;
-  
+
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -173,7 +171,7 @@ body {
 .our-team-title {
   font-weight: var(--bold-font-weight);
   font-size: 36px;
-  line-height: 3;
+  line-height: 2.6;
 
   letter-spacing: 0.03em;
   color: var(--title-text-color);
@@ -183,10 +181,10 @@ body {
 }
 .our-team-list-item {
 }
-.person-link{
+.person-link {
   text-decoration: none;
 }
-.person-foto{
+.person-foto {
   margin-bottom: 30px;
 }
 .person-title {
@@ -201,7 +199,7 @@ body {
 .person-discription {
   font-size: 16px;
   color: #757575;
-  line-height: 1.4;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   margin: 0;
   margin-bottom: 30px;
@@ -246,7 +244,7 @@ body {
 }
 #filter-btn-Marketing {
   font-weight: var(--medium-font-weight);
-   font-size: var(--primary-font-size);
+  font-size: var(--primary-font-size);
 }
 /* !!!------------- PORTFOLIO PROJECTS-------------------- !!!*/
 .project-ul {
@@ -309,8 +307,5 @@ body {
   opacity: 60%;
   text-decoration: none;
 }
-.footer-address-link,
-.footer-link-mail,
-.footer-link-mail: hover {
-color: var (--accent-color);
-}
+
+
