@@ -9,7 +9,6 @@ body {
   --secondary-accent-color: #188ce8;
   --primary-white-color: #fff;
   --dark-background: #2f303a;
-  --light-background: #f5f5f5;
   --text-font: "Roboto", sans-serif;
   --logo-font: "Raleway", sans-serif;
   --logo-font-size: 26px;
@@ -21,18 +20,17 @@ body {
   --hero-font-weight: 900;
   --title-text-color: #212121;
   --secondary-text-color: #757575;
-  --footer-text-color: #fff9;
+  
 }
 /* !!! ------------------------------------- !!!*/
 /* !!! ------------------ HEADER------------------- !!!*/
 /* !!! ------------------------------------- !!!*/
 .header {
-  background-color: var(--light-background);
+  background-color: #fff;
 }
 /* !!! ------------------ LOGO ------------------ !!! */
 .head-logo {
   font-family: var(--logo-font);
-  font-style: normal;
   font-weight: var(--bold-font-weight);
   font-size: var(--logo-font-size);
   color: var(--title-text-color);
@@ -61,7 +59,6 @@ body {
 }
 .nav-list-item {
   text-decoration: none;
-  font-family: var(--text-font);
   font-weight: var(--medium-font-weight);
   font-size: var(--primary-font-size);
   line-height: 1.1em;
@@ -83,7 +80,6 @@ body {
   color: var(--secondary-text-color);
   text-decoration: none;
   font-weight: var(--medium-font-weight);
-  font-size: var(--primary-font-size);
   line-height: 1.1em;
   letter-spacing: 0.02em;
 }
@@ -102,7 +98,7 @@ body {
   color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 4.4em;
 
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -116,7 +112,7 @@ body {
 
   font-weight: var(--bold-font-weight);
   font-size: 16px;
-  line-height: 2.2px;
+  line-height: 2.2em;
 
   letter-spacing: 0.06em;
 }
@@ -131,15 +127,12 @@ body {
 }
 .features-list-item-title {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.1em;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-text-color);
 }
 .features-list-item-discription {
-
-  font-size: 14px;
   line-height: 1.7em;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
@@ -197,14 +190,12 @@ body {
   font-family: inherit;
   font-style: inherit;
 
-  line-height: 1.625;
+  line-height: 1.625em;
   letter-spacing: inherit;
   color: inherit;
 }
 .filter-list-item button {
-  font-family: var(--text-font);
   font-weight: var(--medium-font-weight);
-  font-size: var(--primary-font-size);
   border-radius: 4px;
   border: var(--accent-color) solid 1px;
 }
@@ -231,7 +222,7 @@ body {
 }
 #filter-btn-Marketing {
   font-weight: var(--medium-font-weight);
-  font-size: var(--primary-font-size);
+   font-size: var(--primary-font-size);
 }
 .project-ul {
   list-style: none;
@@ -278,14 +269,12 @@ body {
   color: var(--primary-white-color);
 
   font-weight: var(--regular-font-weight);
-  font-size: 14px;
   line-height: 1.7em;
   letter-spacing: 0.03em;
 }
 .footer-link-mail,
 .footer-link-num {
-  font-size: 14px;
-  line-height: 1.4px;
+  line-height: 1.4em;
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
   opacity: 60%;
