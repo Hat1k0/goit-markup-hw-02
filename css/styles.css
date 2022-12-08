@@ -280,3 +280,8 @@ body {
   opacity: 60%;
   text-decoration: none;
 }
+.footer-address-link,
+.footer-link-mail,
+.footer-link-mail: hover {
+color: var (--accent-color);
+}
