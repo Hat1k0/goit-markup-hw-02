@@ -15,9 +15,9 @@ body {
   --project-title-size: 18px;
   --project-discription-size: 16px;
   --primary-font-size: 14px;
+  --hero-font-weight: 900;
   --bold-font-weight: 700;
   --medium-font-weight: 500;
-  --hero-font-weight: 900;
   --title-text-color: #212121;
   --secondary-text-color: #757575;
 
@@ -180,6 +180,7 @@ body {
   list-style: none;
 }
 .our-team-list-item {
+  background-color: #fff;
 }
 .person-link {
   text-decoration: none;
@@ -307,5 +308,3 @@ body {
   opacity: 60%;
   text-decoration: none;
 }
-
-
