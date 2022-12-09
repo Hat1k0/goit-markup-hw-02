@@ -118,8 +118,8 @@ body {
   font-family: var(--text-font);
   font-weight: var(--bold-font-weight);
   font-size: 16px;
-  line-height: 1.9;
-
+  line-height: 1.9; 
+  cursor: pointer;
   letter-spacing: 0.06em;
 }
 .head-btn:hover {
@@ -221,6 +221,7 @@ body {
   font-weight: var(--medium-font-weight);
   border-radius: 4px;
   border: none;
+  cursor: pointer;
 }
 .filter-list-item button:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -228,6 +229,7 @@ body {
   color: var(--primary-white-color);
 }
 #filter-btn-all {
+  
   font-weight: var(--medium-font-weight);
   font-size: var(--primary-font-size);
 }
