@@ -106,6 +106,7 @@ body {
   background-color: var(--dark-background);
 }
 .head-title {
+  margin: 0;
   color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
@@ -133,6 +134,8 @@ body {
 .features {
 }
 .features-ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 .features-list-item-title {
@@ -157,6 +160,7 @@ body {
 .occupation {
 }
 .occupation-title {
+  margin: 0;
   font-weight: var(--bold-font-weight);
   font-size: 36px;
   line-height: 1.16;
@@ -165,6 +169,7 @@ body {
   color: var(--title-text-color);
 }
 .occupation-ul {
+  padding: 0;
   list-style: none;
 }
 .occupation-list-item {
@@ -174,6 +179,7 @@ body {
   background-color: #F5F4FA;
 }
 .our-team-title {
+  margin: 0;
   font-weight: var(--bold-font-weight);
   font-size: 36px;
   line-height: 1.16;
@@ -182,6 +188,7 @@ body {
   color: var(--title-text-color);
 }
 .our-team-ul {
+  padding: 0;
   margin: 0;
   list-style: none;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
