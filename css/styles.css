@@ -55,7 +55,7 @@ body {
   color: var(--title-text-color);
 }
 
-.nav-link:hover {
+.nav-link:hover,.nav-link:focus {
   color: var(--accent-color);
 }
 .nav-ul {
@@ -83,7 +83,7 @@ body {
   text-decoration: none;
   color: var(--title-text-color);
 }
-.head-contacts-link:hover {
+.head-contacts-link:hover,.head-contacts-link:focus {
   color: var(--accent-color);
 }
 .head-contacts-link {
@@ -94,7 +94,7 @@ body {
   line-height: 1.1;
   letter-spacing: 0.02em;
 }
-.head-contacts-link:hover {
+.head-contacts-link:hover, .head-contacts-link:focus {
   color: var(--accent-color);
 }
 
@@ -127,7 +127,7 @@ body {
   cursor: pointer;
   letter-spacing: 0.06em;
 }
-.head-btn:hover {
+.head-btn:hover,.head-btn:focus {
   background-color: var(--secondary-accent-color);
 }
 /* !!! ------------------ MAIN-FEATURES(STUDIO) ------------------ !!!*/
@@ -191,7 +191,6 @@ body {
   padding: 0;
   margin: 0;
   list-style: none;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .our-team-list-item {
   background-color: #fff;
@@ -239,7 +238,7 @@ body {
   cursor: pointer;
   background-color: #f5f4fa;
 }
-.filter-list-item button:hover {
+.filter-list-item button:hover,button:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   background-color: var(--accent-color);
   color: var(--primary-white-color);
@@ -299,6 +298,7 @@ body {
   text-decoration: none;
 }
 .project-title {
+  padding-left: 24px;
   margin: 0;
   color: var(--title-text-color);
   font-weight: var(--bold-font-weight);
@@ -306,6 +306,7 @@ body {
   line-height: 2;
 }
 .project-discription {
+  padding-left: 24px;
   margin: 0;
   font-size: var(--project-discription-size);
   line-height: 1.9;
