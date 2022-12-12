@@ -4,6 +4,29 @@ body {
   padding: 0;
   color: #000;
 }
+h1,h2,h3,h4,h5,p,ul {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.section{
+  padding: 94px 0px 94px 0px;
+  width: 100%;
+}
+.container{
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding: 0px 15px 0px 15px;
+  box-sizing: border-box;
+
+}
+
 :root {
   --accent-color: #2196f3;
   --secondary-accent-color: #188ce8;
@@ -27,8 +50,13 @@ body {
 /* !!! ------------------ HEADER------------------- !!!*/
 /* !!! ------------------------------------- !!!*/
 .header {
+  display: flex;
   background-color: #fff;
   border-bottom: 1px solid #ececec;
+}
+.head-flex{
+    align-items: center;
+  display: flex;
 }
 /* !!! ------------------ LOGO ------------------ !!! */
 .head-logo {
@@ -39,6 +67,7 @@ body {
   text-decoration: none;
   list-style: none;
   letter-spacing: 0.03em;
+  margin-right: 94px;
 }
 .span-logo {
   color: var(--accent-color);
@@ -48,6 +77,9 @@ body {
 }
 /* !!! ------------------ NAV ------------------ !!! */
 .nav {
+ margin-right: 344px;
+ padding-top: 32px;
+ padding-bottom: 32px;
 }
 
 .nav-link {
@@ -59,25 +91,32 @@ body {
   color: var(--accent-color);
 }
 .nav-ul {
-  padding: 0;
-  margin: 0;
+  display: flex;
   list-style: none;
 }
 .nav-list-item {
+
   text-decoration: none;
   font-weight: var(--medium-font-weight);
   font-size: var(--primary-font-size);
   line-height: 1.1;
   letter-spacing: 0.02em;
 }
+.nav-list-item:not(:last-child){
+  margin-right: 50px;
+}
 .activity {
   color: var(--accent-color);
 }
 /* !!! ------------------ CONTACTS ------------------ !!! */
 .head-contacts {
+  display: flex;
   margin: 0;
   padding: 0;
   list-style: none;
+}
+.head-list-item-contacts:not(:last-child){
+  margin-right: 50px;
 }
 .head-contacts-link {
   text-decoration: none;
@@ -99,14 +138,22 @@ body {
 }
 
 /* !!! ------------------ MAIN ------------------ !!!*/
-.main {
+.main{
+  width: 100%;
 }
 /* !!! ------------------ MAIN-HEAD(STUDIO) ------------------ !!!*/
-.main-head {
+
+.main-first-block{
+
+  text-align: center;
+  width: 100%;
   background-color: var(--dark-background);
+  padding: 200px  452px 200px 452px;
+
 }
 .head-title {
-  margin: 0;
+  margin-right: auto;
+  margin-left: auto;
   color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
@@ -115,6 +162,10 @@ body {
   text-transform: uppercase;
 }
 .head-btn {
+  align-items: center;
+  margin-top: 30px;
+  width: 215px;
+  height: 50px;
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -134,6 +185,7 @@ body {
 .features {
 }
 .features-ul {
+  display: flex;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -160,7 +212,9 @@ body {
 .occupation {
 }
 .occupation-title {
+  text-align: center;
   margin: 0;
+  margin-bottom: 50px;
   font-weight: var(--bold-font-weight);
   font-size: 36px;
   line-height: 1.16;
@@ -169,17 +223,22 @@ body {
   color: var(--title-text-color);
 }
 .occupation-ul {
+  display: flex;
   padding: 0;
   list-style: none;
 }
-.occupation-list-item {
+.occupation-list-item:not(:last-child){
+  margin-right: 30px;
 }
 /* !!! ------------------ MAIN-OUR-TEAM(STUDIO) ------------------ !!!*/
-.section-our-team {
-  background-color: #f5f4fa;
+#portfolio{
+  background-color: #F5F4FA;
+  width: 100%;
 }
 .our-team-title {
+  text-align: center;
   margin: 0;
+  margin-bottom: 50px;
   font-weight: var(--bold-font-weight);
   font-size: 36px;
   line-height: 1.16;
@@ -188,12 +247,18 @@ body {
   color: var(--title-text-color);
 }
 .our-team-ul {
+  display: flex;
   padding: 0;
   margin: 0;
   list-style: none;
 }
 .our-team-list-item {
+  padding-bottom: 30px;
+  text-align: center;
   background-color: #fff;
+}
+.our-team-list-item:not(:last-child){
+  margin-right: 30px;
 }
 .person-link {
   text-decoration: none;
@@ -289,6 +354,9 @@ body {
   font-weight: var(--medium-font-weight);
   font-size: var(--primary-font-size);
 }
+.project-text-block{
+
+}
 .project-li {
   border: #eeeeee solid 1px;
   width: 370px;
@@ -316,6 +384,11 @@ body {
 /* !!! ------------------ FOOTER ------------------ !!! */
 .footer {
   background-color: var(--dark-background);
+  width: 100%;
+}
+.footer .container{
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-logo {
