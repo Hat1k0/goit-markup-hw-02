@@ -31,7 +31,6 @@ img {
   width: 1200px;
   padding: 0px 15px;
 }
-
 :root {
   --accent-color: #2196f3;
   --secondary-accent-color: #188ce8;
@@ -80,10 +79,6 @@ img {
   color: var(--primary-white-color);
 }
 /* !!! ------------------ NAV ------------------ !!! */
-.nav {
-  margin-right: 344px;
-}
-
 .nav-link {
   display: block;
   padding-top: 32px;
@@ -91,7 +86,6 @@ img {
   text-decoration: none;
   color: var(--title-text-color);
 }
-
 .nav-link:hover,
 .nav-link:focus {
   color: var(--accent-color);
@@ -144,21 +138,20 @@ img {
 .head-contacts-link:focus {
   color: var(--accent-color);
 }
-
 /* !!! ------------------ MAIN ------------------ !!!*/
 .main {
   width: 100%;
 }
 /* !!! ------------------ MAIN-HEAD(STUDIO) ------------------ !!!*/
 .main-hero-section {
-  width: 100%;
   background-color: var(--dark-background);
+  padding: 200px 0;
 }
 .main-hero-section .container {
-  padding: 200px 0;
   text-align: center;
 }
 .head-title {
+  width: 696px;
   margin-right: auto;
   margin-left: auto;
   color: var(--primary-white-color);
@@ -190,7 +183,7 @@ img {
   background-color: var(--secondary-accent-color);
 }
 /* !!! ------------------ MAIN-FEATURES(STUDIO) ------------------ !!!*/
-.features-section{
+.features-section {
   padding-top: 94px;
 }
 .features-ul {
@@ -225,8 +218,7 @@ img {
   color: var(--secondary-text-color);
 }
 /* !!! ------------------ MAIN-OCCUPATION(STUDIO) ------------------ !!!*/
-.occupation {
-}
+
 .occupation-title {
   text-align: center;
   margin: 0;
@@ -297,11 +289,14 @@ img {
   margin: 0;
 }
 /* !!! ------------------ MAIN-FILTER(PORTFOLIO) ------------------ !!!*/
+.portfolio-section {
+  padding-top: 94px;
+}
 .ul-project-filter {
   display: flex;
   list-style: none;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 .filter-list-item {
   font-family: inherit;
@@ -312,7 +307,7 @@ img {
   color: inherit;
 }
 .filter-list-item:not(:last-child) {
-margin-right: 8px;
+  margin-right: 8px;
 }
 .filter-list-item button {
   font-weight: var(--medium-font-weight);
@@ -320,6 +315,7 @@ margin-right: 8px;
   border: none;
   cursor: pointer;
   background-color: #f5f4fa;
+  padding: 6px 24px;
 }
 .filter-list-item button:hover,
 button:focus {
@@ -328,32 +324,22 @@ button:focus {
   color: var(--primary-white-color);
 }
 #filter-btn-all {
-  width: 73px;
-  height: 38px;
   font-weight: var(--medium-font-weight);
   font-size: var(--primary-font-size);
 }
 #filter-btn-Web {
-  width: 125px;
-  height: 38px;
   font-weight: var(--medium-font-weight);
   font-size: var(--primary-font-size);
 }
 #filter-btn-App {
-  width: 112px;
-  height: 38px;
   font-weight: var(--medium-font-weight);
   font-size: var(--primary-font-size);
 }
 #filter-btn-Design {
-  width: 103px;
-  height: 38px;
   font-weight: var(--medium-font-weight);
   font-size: var(--primary-font-size);
 }
 #filter-btn-Marketing {
-  width: 130px;
-  height: 38px;
   font-weight: var(--medium-font-weight);
   font-size: var(--primary-font-size);
 }
@@ -366,15 +352,13 @@ button:focus {
   letter-spacing: 0.03em;
 }
 /* !!!------------- PORTFOLIO PROJECTS-------------------- !!!*/
-.project-section{
+.project-section {
   padding-top: 94px;
-}
-.project-section .container{
- padding: 0;
 }
 .project-ul {
   display: flex;
-  flex-wrap:wrap; 
+  flex-wrap: wrap;
+  margin: -15px;
   list-style: none;
   font-weight: var(--medium-font-weight);
   font-size: var(--primary-font-size);
@@ -389,17 +373,17 @@ button:focus {
   text-decoration: none;
 }
 .project-text-block {
+  padding-left: 24px;
 }
 .project-title {
-  padding-left: 24px;
   margin: 0;
+  margin-bottom: 4px;
   color: var(--title-text-color);
   font-weight: var(--bold-font-weight);
   font-size: var(--project-title-size);
   line-height: 2;
 }
 .project-discription {
-  padding-left: 24px;
   margin: 0;
   font-size: var(--project-discription-size);
   line-height: 1.9;
@@ -412,7 +396,6 @@ button:focus {
   width: 100%;
   padding: 60px 0;
 }
-
 .footer-logo {
   text-decoration: none;
   color: var(--primary-white-color);
@@ -421,7 +404,6 @@ button:focus {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  
 }
 .footer-address {
   margin-top: 20px;
@@ -453,7 +435,7 @@ button:focus {
   opacity: 60%;
   text-decoration: none;
 }
-.footer-link-mail{
+#contact-list-item {
   display: block;
   margin-top: 9px;
   margin-bottom: 6px;
